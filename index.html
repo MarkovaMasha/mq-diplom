@@ -10,41 +10,39 @@
 
 <body>
     <div class="visually-hidden">
-    <div class="popup-wrp">
-        <div class="container-popup">
-          <img src="svg/form-x.svg" class="close-popup" alt="закрыть">
-          <h2 class="title-popup">Ваш фидбэк</h2>
-          <span class="subtitle-popup">Как часто вы заходите на сайт?</span>
-          <select class="input-select">
-            <option selected>Почти каждый день</option>
-            <option>Раз в несколько дней</option>
-            <option>Раз в несколько недель</option>
-            <option>Несколько раз в год</option>
-          </select>
-          <span class="subtitle-popup">Вы подписаны на e-mail рассылку?</span>
-          <div class="button-radio-popup">
-            <label>
-              <input class="label-input" type="radio" name="radio-group">
-              <span class="label-text">Да</span>
-            </label>
-            <label>
-              <input class="label-input" type="radio" name="radio-group">
-              <span class="label-text">Нет</span>
-            </label>
-          </div>
-          <span class="subtitle-popup">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
-          <textarea class="area-input" placeholder="Может, больше рецептов?" required></textarea>
-          <button class="popup-button" type="submit">Отправить</button>
+        <div class="popup-wrp">
+            <form class="container-popup">
+                <img src="svg/form-x.svg" class="close-popup" alt="закрыть">
+                <h2 class="title-popup">Ваш фидбэк</h2>
+                <span class="subtitle-popup">Как часто вы заходите на сайт?</span>
+                <select class="input-select">
+                    <option selected>Почти каждый день</option>
+                    <option>Раз в несколько дней</option>
+                    <option>Раз в несколько недель</option>
+                    <option>Несколько раз в год</option>
+                </select>
+                <span class="subtitle-popup">Вы подписаны на e-mail рассылку?</span>
+                <div class="button-radio-popup">
+                    <label>
+                        <input class="label-input" type="radio" name="radio-group">
+                        <span class="label-text">Да</span>
+                    </label>
+                    <label>
+                        <input class="label-input" type="radio" name="radio-group">
+                        <span class="label-text">Нет</span>
+                    </label>
+                </div>
+                <span class="subtitle-popup">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+                <textarea class="area-input" placeholder="Может, больше рецептов?" required></textarea>
+                <button class="popup-button" type="submit">Отправить</button>
+            </form>
         </div>
-      </div>
- </div>>
+    </div>
 
     <header class="header">
         <div class="header-container">
             <div class="top-container">
-                <a href="#0"><img class="logo-img"
-                        src="svg/noemi-logo.svg"
-                        alt="Noemi-logo"></a>
+                <a href="#0"><img class="logo-img" src="svg/noemi-logo.svg" alt="Noemi-logo"></a>
                 <nav>
                     <ul class="menu">
                         <li><a href="#0" class="menu-item">Главная</a></li>
@@ -59,7 +57,7 @@
             <h1 class="title-text">Блог о творчестве, спорте<br>и образе жизни</h1>
         </div>
     </header>
-    <article>
+    <div>
         <h2 class="title-trends">Сейчас в тренде</h2>
         <div class="container-trends">
             <div class="card-trends card-trends-1">
@@ -102,15 +100,14 @@
                 </div>
             </div>
         </div>
-    </article>
+    </div>
 
     <div class="container">
         <main class="wrapper content-wrapper">
             <main class="main-container">
                 <article class="card">
                     <figure>
-                        <img src="images/last-post1.jpg"
-                            alt="Прогулка вдоль моря" class="img-size">
+                        <img src="images/last-post1.jpg" alt="Прогулка вдоль моря" class="img-size">
                     </figure>
                     <div class="text-card">
                         <ul class="text-tag">
@@ -132,8 +129,7 @@
 
                 <article class="card">
                     <figure>
-                        <img src="images/last-post2.jpg"
-                            alt="Упражнение для йоги" class="img-size">
+                        <img src="images/last-post2.jpg" alt="Упражнение для йоги" class="img-size">
                     </figure>
                     <div class="text-card">
                         <ul class="text-tag">
@@ -155,8 +151,7 @@
 
                 <article class="card">
                     <figure>
-                        <img src="images/last-post3.jpg"
-                            alt="Диджей" class="img-size">
+                        <img src="images/last-post3.jpg" alt="Диджей" class="img-size">
                     </figure>
                     <div class="text-card">
                         <ul class="text-tag">
@@ -178,8 +173,7 @@
 
                 <article class="card">
                     <figure>
-                        <img src="images/last-post4.jpg"
-                            alt="Завтрак">
+                        <img src="images/last-post4.jpg" alt="Завтрак">
                     </figure>
                     <div class="text-card">
                         <ul class="text-tag">
@@ -201,8 +195,7 @@
 
                 <article class="card">
                     <figure>
-                        <img src="images/last-post5.jpg"
-                            alt="Подушка с принтом" class="img-size">
+                        <img src="images/last-post5.jpg" alt="Подушка с принтом" class="img-size">
                     </figure>
                     <div class="text-card">
                         <ul class="text-tag">
@@ -229,8 +222,7 @@
                     <div class="new-post">
                         <h3 class="new-post-title">Новые посты</h3>
                         <article class="newpost-container">
-                            <img src="images/2.jpg"
-                                alt="Прогулка вдоль моря" class="new-post-img">
+                            <img src="images/2.jpg" alt="Прогулка вдоль моря" class="new-post-img">
                             <div class="newpost-container-text">
                                 <time class="new-post-date">14 июня 2019</time>
                                 <a href="#0">
@@ -239,8 +231,7 @@
                             </div>
                         </article>
                         <article class="newpost-container">
-                            <img src="images/151.jpg" alt="Асана"
-                                class="new-post-img">
+                            <img src="images/151.jpg" alt="Асана" class="new-post-img">
                             <div class="newpost-container-text">
                                 <time class="new-post-date">14 июня 2019</time>
                                 <a href="#0">
@@ -249,8 +240,7 @@
                             </div>
                         </article>
                         <article class="newpost-container">
-                            <img src="images/45.jpg" alt="Балкон"
-                                class="new-post-img">
+                            <img src="images/45.jpg" alt="Балкон" class="new-post-img">
                             <div class="newpost-container-text">
                                 <time class="new-post-date">14 июня 2019</time>
                                 <a href="#0">
@@ -259,8 +249,7 @@
                             </div>
                         </article>
                         <article class="newpost-container">
-                            <img src="images/501.jpg"
-                                alt="Завтрак" class="new-post-img">
+                            <img src="images/501.jpg" alt="Завтрак" class="new-post-img">
                             <div class="newpost-container-text">
                                 <time class="new-post-date">14 июня 2019</time>
                                 <a href="#0">
@@ -269,8 +258,7 @@
                             </div>
                         </article>
                         <article class="newpost-container">
-                            <img src="images/7.jpg"
-                                alt="Причёски для длинных волос" class="new-post-img">
+                            <img src="images/7.jpg" alt="Причёски для длинных волос" class="new-post-img">
                             <div class="newpost-container-text">
                                 <time class="new-post-date">14 июня 2019</time>
                                 <a href="#0">
@@ -349,48 +337,68 @@
         <h2 class="title-trends">Наши изделия</h2>
         <div class="container-products">
             <div class="product-item">
-                <img src="images/shop-item-desk1.jpg" class="image-item-product">
+                <div class="image-pillow">
+                    <picture>
+                        <source srcset="images/shop-item-desk1.jpg" media="(min-width: 1200px)">
+                        <source srcset="images/shop-item-tablet-1.jpg" media="(min-width: 768px)">
+                        <source srcset="images/shop-item-mobile-1.jpg" media="(min-width: 360px)">
+                        <img class="image-item-product" src="images/shop-item-desk1.jpg" alt="Подушка с надписью">
+                    </picture>
+                </div>
                 <h3 class="product-title">Подушки на диван</h3>
-                <span class="protuct-text">Набор из двух подушек с мождными принтами. Видео о создании <a href="#0"
-                        class="product-text-link">здесь.</a></span>
+                <p class="protuct-text">Набор из двух подушек с мождными принтами. Видео о создании <a href="#0"
+                        class="product-text-link">здесь.</a></p>
                 <div class="price-container">
                     <div class="price-item">
                         <span class="price-sale">1000 ₽</span>
                         <span class="price">800 ₽</span>
                     </div>
-                    <button class="price-button" type="submit">В магазин</button>
+                    <a href="#0" class="price-button">В магазин</a>
                 </div>
             </div>
 
             <div class="product-item">
-                <img src="images/shop-item-desk2.jpg" class="image-item-product">
+                <div class="image-toy">
+                    <picture>
+                        <source srcset="images/shop-item-desk2.jpg" media="(min-width: 1200px)">
+                        <source srcset="images/shop-item-tablet2.jpg" media="(min-width: 768px)">
+                        <source srcset="images/shop-item-mobile2.jpg" media="(min-width: 360px)">
+                        <img class="image-item-product" src="images/shop-item-desk2.jpg" alt="Игрушка зайца">
+                    </picture>
+                </div>
                 <h3 class="product-title">Кукла "Зайчик"</h3>
-                <span class="protuct-text">Интерьерная рукодельная кукла "Зайчик", созданию которой посвящена <a
-                        href="#0" class="product-text-link">весенняя серия постов</a> в блоге и несколько
-                    подкастов.</span>
+                <p class="protuct-text">Интерьерная рукодельная кукла "Зайчик", созданию которой посвящена <a href="#0"
+                        class="product-text-link">весенняя серия постов</a> в блоге и несколько
+                    подкастов.</p>
                 <div class="price-container">
                     <div class="price-item">
                         <span class="price">3500 ₽</span>
                     </div>
-                    <button class="price-button" type="submit">В магазин</button>
+                    <a href="#0" class="price-button">В магазин</a>
                 </div>
             </div>
 
             <div class="product-item">
-                <img src="images/shop-item-desk3.jpg" class="image-item-product">
-                <h3 class="product-title">Шестиугольная рамка</h3>
-                <span class="protuct-text">Необычная рамка для украшения дома из видео<a href="#0"
-                        class="product-text-link">"Как сделать рамку из подручных средств за 30 минут"</a></span>
-                <div class="price-container">
-                    <div class="price-item">
-                        <span class="price-sale">500 ₽</span>
-                        <span class="price">400 ₽</span>
+                <div class="image-border">
+                    <picture>
+                        <source srcset="images/shop-item-desk3.jpg" media="(min-width: 1200px)">
+                        <source srcset="images/shop-item-mobile3.jpg" media="(min-width: 768px)">
+                        <source srcset="images/shop-item-tablet3.jpg" media="(min-width: 360px)">
+                        <img class="image-item-product" src="images/shop-item-desk3.jpg" alt="Шестиугольная рамка">
+                    </picture>
+                    <h3 class="product-title">Шестиугольная рамка</h3>
+                    <p class="protuct-text">Необычная рамка для украшения дома из видео<a href="#0"
+                            class="product-text-link">"Как сделать рамку из подручных средств за 30 минут"</a></p>
+                    <div class="price-container">
+                        <div class="price-item">
+                            <span class="price-sale">500 ₽</span>
+                            <span class="price">400 ₽</span>
+                        </div>
+                        <a href="#0" class="price-button">В магазин</a>
                     </div>
-                    <button class="price-button" type="submit">В магазин</button>
                 </div>
             </div>
         </div>
-    </div>
 </body>
 <footer class="footer">
     <div class="wrapper">
