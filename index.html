@@ -173,7 +173,7 @@
 
                 <article class="card">
                     <figure>
-                        <img src="images/last-post4.jpg" alt="Завтрак">
+                        <img src="images/last-post4.jpg" alt="Завтрак" class="img-size">
                     </figure>
                     <div class="text-card">
                         <ul class="text-tag">
@@ -266,68 +266,77 @@
                                 </a>
                             </div>
                         </article>
-                        <div class="posts-search-form">
-                            <form action="#0" id="search" class="input-search">
-                                <label class="visually-hidden" for="search">Поиск</label>
-                                <input class="place-search" type="text" id="search-input" placeholder="Найти...">
-                                <button class="img-search"><span class="visually-hidden">Найти</span></button>
+
+                        <section class="posts-search-form">
+                            <form class="form">
+                                <label class="label">
+                                    <span class="visually-hidden">Поле поиска</span>
+                                    <input type="search" class="input" placeholder="Найти...">
+                                </label>
+                                <button type="submit" class="button">
+                                    <span class="visually-hidden">Кнопка поиска</span>
+                                </button>
                             </form>
-                        </div>
-                </section>
+                        </section>
+                        <section class="forms-mailing">
+                            <h4 class="mailing">Рассылка</h4>
+                            <form class="form-subscribe">
+                                <label class="label">
+                                    <span class="visually-hidden">Поле email</span>
+                                    <input type="email" class="input-email" placeholder="Ваш email-адрес">
+                                </label>
+                                <button type="submit" class="button-subscribe">
+                                    <span class="visually-hidden">Кнопка подписаться</span>
+                                    <span class="title-button">Подписаться</span>
+                                </button>
+                            </form>
+                        </section>
 
-                <section class="side-container-item">
-                    <h3 class="new-post-title">Рассылка</h3>
-                    <form action="#0" id="email">
-                        <label for="email" class="visually-hidden">email</label>
-                        <input class="input-subscribe" type="text" id="email-input" placeholder="Ваш email-адрес">
-                        <button class="button-subscribe" type="submit" form="data">Подписаться</button>
-                    </form>
-                </section>
 
-                <section class="side-container-item">
-                    <h3 class="new-post-title">Теги</h3>
-                    <ul class="tags-block">
-                        <li class="tags-block-item"><a href="#0" class="tags-side-item">Fashion</a></li>
-                        <li class="tags-block-item"><a href="#0" class="tags-side-item">Music</a></li>
-                        <li class="tags-block-item"><a href="#0" class="tags-side-item">Lifestyle</a></li>
-                        <li class="tags-block-item"><a href="#0" class="tags-side-item">Art</a></li>
-                        <li class="tags-block-item"><a href="#0" class="tags-side-item">Interior</a></li>
-                        <li class="tags-block-item"><a href="#0" class="tags-side-item">Travel</a></li>
-                        <li class="tags-block-item"><a href="#0" class="tags-side-item">Food</a></li>
-                        <li class="tags-block-item"><a href="#0" class="tags-side-item">Health</a></li>
-                    </ul>
-                </section>
+                        <section class="side-container-item">
+                            <h3 class="new-post-title">Теги</h3>
+                            <ul class="tags-block">
+                                <li class="tags-block-item"><a href="#0" class="tags-side-item">Fashion</a></li>
+                                <li class="tags-block-item"><a href="#0" class="tags-side-item">Music</a></li>
+                                <li class="tags-block-item"><a href="#0" class="tags-side-item">Lifestyle</a></li>
+                                <li class="tags-block-item"><a href="#0" class="tags-side-item">Art</a></li>
+                                <li class="tags-block-item"><a href="#0" class="tags-side-item">Interior</a></li>
+                                <li class="tags-block-item"><a href="#0" class="tags-side-item">Travel</a></li>
+                                <li class="tags-block-item"><a href="#0" class="tags-side-item">Food</a></li>
+                                <li class="tags-block-item"><a href="#0" class="tags-side-item">Health</a></li>
+                            </ul>
+                        </section>
 
-                <section class="side-container-item">
-                    <h3 class="new-post-title">Темы</h3>
-                    <ul class="categories-container">
-                        <li class="categories-item">
-                            <a href="#0" class="categories-name">Красота</a>
-                            <span class="categories-number">12</span>
-                        </li>
-                        <li class="categories-item">
-                            <a href="#0" class="categories-name">Здоровье</a>
-                            <span class="categories-number">4</span>
-                        </li>
-                        <li class="categories-item">
-                            <a href="#0" class="categories-name">Образ жизни</a>
-                            <span class="categories-number">145</span>
-                        </li>
-                        <li class="categories-item">
-                            <a href="#0" class="categories-name">Музыка</a>
-                            <span class="categories-number">28</span>
-                        </li>
-                        <li class="categories-item">
-                            <a href="#0" class="categories-name">Спорт</a>
-                            <span class="categories-number">62</span>
-                        </li>
-                        <li class="categories-item">
-                            <a href="#0" class="categories-name">Йога</a>
-                            <span class="categories-number">8</span>
-                        </li>
-                    </ul>
-                </section>
-    </div>
+                        <section class="side-container-item">
+                            <h3 class="new-post-title">Темы</h3>
+                            <ul class="categories-container">
+                                <li class="categories-item">
+                                    <a href="#0" class="categories-name">Красота</a>
+                                    <span class="categories-number">12</span>
+                                </li>
+                                <li class="categories-item">
+                                    <a href="#0" class="categories-name">Здоровье</a>
+                                    <span class="categories-number">4</span>
+                                </li>
+                                <li class="categories-item">
+                                    <a href="#0" class="categories-name">Образ жизни</a>
+                                    <span class="categories-number">145</span>
+                                </li>
+                                <li class="categories-item">
+                                    <a href="#0" class="categories-name">Музыка</a>
+                                    <span class="categories-number">28</span>
+                                </li>
+                                <li class="categories-item">
+                                    <a href="#0" class="categories-name">Спорт</a>
+                                    <span class="categories-number">62</span>
+                                </li>
+                                <li class="categories-item">
+                                    <a href="#0" class="categories-name">Йога</a>
+                                    <span class="categories-number">8</span>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
     </div>
     </aside>
     </main>
@@ -340,8 +349,8 @@
                 <div class="image-pillow">
                     <picture>
                         <source srcset="images/shop-item-desk1.jpg" media="(min-width: 1200px)">
-                        <source srcset="images/shop-item-tablet-1.jpg" media="(min-width: 768px)">
-                        <source srcset="images/shop-item-mobile-1.jpg" media="(min-width: 360px)">
+                        <source srcset="images/shop-item-tablet1.jpg" media="(min-width: 768px)">
+                        <source srcset="images/shop-item-mobile1.jpg" media="(max-width: 360px)">
                         <img class="image-item-product" src="images/shop-item-desk1.jpg" alt="Подушка с надписью">
                     </picture>
                 </div>
@@ -362,7 +371,7 @@
                     <picture>
                         <source srcset="images/shop-item-desk2.jpg" media="(min-width: 1200px)">
                         <source srcset="images/shop-item-tablet2.jpg" media="(min-width: 768px)">
-                        <source srcset="images/shop-item-mobile2.jpg" media="(min-width: 360px)">
+                        <source srcset="images/shop-item-mobile2.jpg" media="(max-width: 360px)">
                         <img class="image-item-product" src="images/shop-item-desk2.jpg" alt="Игрушка зайца">
                     </picture>
                 </div>
@@ -383,7 +392,7 @@
                     <picture>
                         <source srcset="images/shop-item-desk3.jpg" media="(min-width: 1200px)">
                         <source srcset="images/shop-item-mobile3.jpg" media="(min-width: 768px)">
-                        <source srcset="images/shop-item-tablet3.jpg" media="(min-width: 360px)">
+                        <source srcset="images/shop-item-tablet3.jpg" media="(max-width: 360px)">
                         <img class="image-item-product" src="images/shop-item-desk3.jpg" alt="Шестиугольная рамка">
                     </picture>
                     <h3 class="product-title">Шестиугольная рамка</h3>
